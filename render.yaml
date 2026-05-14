@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mailerphp
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:$PORT alexusMailer-v2.1.php"
